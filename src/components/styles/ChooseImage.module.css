@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+    
+    
+}
+
+
+
+.formcontainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.labelinput {
+    flex-direction: column;
+    display: flex;
+}
+.labelinput label {
+    padding: 10px 0;
+}
+
+.labelinput input {
+    padding-bottom:10px ;
+}
+
+.progressbar {
+    padding-bottom: 20px;
+}
+
+.submitbutton {
+    width: fit-content;
+    padding: 7px;
+    background: #5c8fee;
+    color: #f9f9f9;
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+}
+
+.imagecontainer {
+    margin-top: 30px;
+}
+
+.messege {
+    background-color: #4ad36c;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
