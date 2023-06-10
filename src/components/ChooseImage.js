@@ -15,7 +15,6 @@ const ChooseImage = () => {
     const [progress, setProgress] = useState(0);
     const [messege, setMessege] = useState("");
     const [images, setImages] = useState([]);
-    //add a new state variable for submitted
     const [submitted, setSubmitted] = useState(false);
     useEffect(() => {
         fetchImages();
